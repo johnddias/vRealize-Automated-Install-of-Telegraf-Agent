@@ -1,7 +1,7 @@
 # vRealize Automated Install of Telegraf Agent
  A vRealize Orchestrator package to automate the installation and configuration of Telegraf via vRealize Operations Application Monitoring for a vRealize Automation deployment.
 
- For more information on the structure and purpose of this workflow package please see my blog post.
+ For more information on the structure and purpose of this workflow package please [see my blog post](https://blogs.vmware.com/management/2021/11/do-you-want-to-offer-vrealize-automation-service-broker-users-the-option-to-have-their-applications-monitored-by-vrealize-operations-automatically.html).
 
 ## Getting Started
 This solution has been developed and tested on the following products:
