@@ -7,7 +7,7 @@
 This solution has been developed and tested on the following products:
 - vRealize Operations 8.6 (Enterprise edition required for application monitoring)
 - vRealize Automation 8.6 (with embedded vRealize Orchestrator 8.6)
-- vRealize Operations Management Pack for vRealize Orchestrator 3.1.1
+
 
 It may work with versions as early as 8.1, but this has not been tested. Prior versions lack the required APIs.
 
