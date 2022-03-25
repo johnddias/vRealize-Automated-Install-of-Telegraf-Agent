@@ -3,6 +3,12 @@
 
  For more information on the structure and purpose of this workflow package please [see my blog post](https://blogs.vmware.com/management/2021/11/do-you-want-to-offer-vrealize-automation-service-broker-users-the-option-to-have-their-applications-monitored-by-vrealize-operations-automatically.html).
 
+## Changes
+25 Mar 2022 -
+  * refactored to work with both vROps Cloud and On-Prem instances. Configuration element now includes a flag to determine if the request is for a vROps Cloud instance. Also added refresh token to the configuration element.
+  * More robust handling of errors in installation
+  * Decreased wait timer value to 60 seconds to speed up workflow (adjustable by changing the timer attribute)
+
 ## Getting Started
 This solution has been developed and tested on the following products:
 - vRealize Operations 8.6 (Enterprise edition required for application monitoring)
